@@ -33,7 +33,7 @@ header{
     max-width: 1600px;
     margin: 0 auto;
     background-color: #FFFFFF;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 header nav{
@@ -41,7 +41,7 @@ header nav{
     display: flex;
     justify-content: space-between;
     padding: 16px 120px 16px 120px;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     align-items: center;
     /* margin: 16px auto; */
 }
