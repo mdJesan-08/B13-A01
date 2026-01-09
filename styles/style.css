@@ -157,6 +157,10 @@ main .banner .paragraph{
 
 
 }
+.arrow-button:hover{
+    color: #469165;
+    background-color: rgba(255, 255, 255, 1);
+}
 .video-button{
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 1);
@@ -177,6 +181,11 @@ main .banner .paragraph{
     
 }
 
+.video-button:hover{
+    color: #469165;
+    background-color: rgba(255, 255, 255, 1);
+}
+
 /* <--------------------------------------------------------------------> */
 
 /* main banner section ends here */
@@ -193,7 +202,7 @@ main .small-banner{
     justify-content: center;
     align-items: center;
     gap: 16px;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
 }
 
 
@@ -203,7 +212,7 @@ main .small-banner .notes {
    flex-direction: column;
    justify-content: flex-end;
    align-items: center;
-   border: 3px solid red;
+   /* border: 3px solid red; */
 } 
 
 
@@ -220,12 +229,12 @@ main .cards{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 
 }
 
 .cards .div{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     width: 322px;
     height: 300px;
 
@@ -251,7 +260,7 @@ footer .second-brain{
     align-items: center;
     gap: 60px;
     margin: 120px auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 footer .second-brain .solution{
     width: 700px;
@@ -307,7 +316,7 @@ footer .second-brain .solution{
 
     margin: 120px auto;
    
-    border: 1px solid red;
+    /* border: 1px solid red; */
  
 
     width: 1360px;
@@ -361,4 +370,50 @@ footer .second-brain .solution{
     color: #469165;
 }
 
-final footer
+/* final footer */
+
+.final{
+    max-width: 1600px;
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 80px;
+}
+.copy-right{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    /* border-top: 1px solid white; */
+    height: 54px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.social-links{
+    /* border: 2px solid rebeccapurple; */
+
+    width: 220px;
+    height: 64px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
