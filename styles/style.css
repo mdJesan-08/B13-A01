@@ -303,4 +303,62 @@ footer .second-brain .solution{
 
 /* final last footer */
 
+.ready{
 
+    margin: 120px auto;
+   
+    border: 1px solid red;
+ 
+
+    width: 1360px;
+    height: 384px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 80px 40px 80px 40px;
+
+    background-color: #F7F6F2;
+
+}
+
+.ready h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.ready .ready-para{
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #627382;
+}
+
+.ready button{
+    background-color: #469165;
+    color: #FFFFFF;
+
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    
+
+}
+.ready button:hover{
+    background-color: #FFFFFF;
+    color: #469165;
+}
+
+final footer
